@@ -1,3 +1,4 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ---
 layout:     post
 title:      Lecture 05
@@ -39,9 +40,6 @@ A vector space (also called a linear space) is a collection of objects called ve
   </mrow></math> - all vectors with 3 components.
   
 ##### c. Non Vector Space Example
-
-  
-  
-  
+you can use an inline formula $$\forall x \in R$$ like this one  
   
 
