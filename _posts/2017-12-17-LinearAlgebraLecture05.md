@@ -41,4 +41,5 @@ A vector space (also called a linear space) is a collection of objects called ve
 ##### c. Non Vector Space Example
 you can use an inline formula $$\forall x \in R$$ like this one  
 
-  
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
