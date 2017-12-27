@@ -9,15 +9,15 @@ catalog: true
 tags:
     - Linear Algebra
 ---
-#Lecture 05
-###01. PA = LU
-###02. Symmetrical Matrix
-###03. Vector Space, Subspaces
+# Lecture 05
+### 01. PA = LU
+### 02. Symmetrical Matrix
+### 03. Vector Space, Subspaces
 ---
-###01. PA = LU
+### 01. PA = LU
 All invertible matrix can be transformed into PA = LU, where P is permutation matrix.
 
-###02. Symmetrical Matrix
+### 02. Symmetrical Matrix
 <math><mrow>
     <msup>
       <mi>R</mi>
@@ -66,10 +66,10 @@ All invertible matrix can be transformed into PA = LU, where P is permutation ma
     <mi>R</mi>
   </mrow>
 </math> 
-###03. Vector Space and Subspace
-#####a. What is vector space
+### 03. Vector Space and Subspace
+##### a. What is vector space
 A vector space (also called a linear space) is a collection of objects called vectors, which may be added together and multiplied ("scaled") by numbers, called scalars. 
-#####b. Vector Space Example
+##### b. Vector Space Example
 <math><mrow>
     <msup>
       <mi>R</mi>
@@ -84,7 +84,7 @@ A vector space (also called a linear space) is a collection of objects called ve
     </msup>
   </mrow></math> - all vectors with 3 components.
   
-#####c. Non Vector Space Example
+##### c. Non Vector Space Example
 
   
   
