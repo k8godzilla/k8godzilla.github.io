@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Lecture 05
-subtitle:   
+subtitle:   PA = LU, Vector Space and Subspace
 date:       2017-12-27
 author:     Sun Yin
 header-img: img/tags_linearAlgebra.jpg
