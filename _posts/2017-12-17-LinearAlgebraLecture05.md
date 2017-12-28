@@ -41,7 +41,7 @@ The graph above is not a vector space, because the product between a vector in t
 #####  d.Subspace
 Subspace is a vector space that is included by another vector space.
 
-** Example:** 
+**Example:** 
 
 Subspace of \\({R}^{2}\\)
 
@@ -61,7 +61,11 @@ In linear algebra, the column space of a matrix A is the span (set of all possib
 
 **Example**
 
-The column space of matrix \\(A=\begin{bmatrix} 1 & 3 \\ 2 & 3 \\ 4 & 1 \end{bmatrix}\\) is all linear combinations of its two column vectors.
+The column space of matrix below is all linear combinations of its two column vectors.
+$$
+A=\begin{bmatrix} 1 & 3 \\ 2 & 3 \\ 4 & 1 \end{bmatrix}
+$$
+
 
 
 
