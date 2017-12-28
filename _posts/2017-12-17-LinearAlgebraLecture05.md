@@ -4,7 +4,7 @@ title:      Lecture 05
 subtitle:   PA = LU, Vector Space and Subspace
 date:       2017-12-27
 author:     Sun Yin
-header-img: tags_linearAlgebra.png
+header-img: img/tags_linearAlgebra.png
 catalog: true
 tags:
     - Linear Algebra
@@ -34,5 +34,5 @@ A vector space (also called a linear space) is a collection of objects called ve
 \\({ R }^{ 3 }\\) - all vectors with 3 components.
   
 ##### c. Non Vector Space Example
-![](linearAlgebra_lecture05_01.jpg)
+![](img/linearAlgebra_lecture05_01.jpg)
 The graph above is not a vector space, because the product between a vector in this space and a negative scalar will be outside of this space.
