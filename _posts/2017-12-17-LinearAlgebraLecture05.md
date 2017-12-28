@@ -4,7 +4,7 @@ title:      Lecture 05
 subtitle:   PA = LU, Vector Space and Subspace
 date:       2017-12-27
 author:     Sun Yin
-header-img: img/tags_linearAlgebra.jpg
+header-img: tags_linearAlgebra.png
 catalog: true
 tags:
     - Linear Algebra
@@ -19,37 +19,20 @@ tags:
 ### 01. PA = LU
 All invertible matrix can be transformed into PA = LU, where P is permutation matrix.
 
-### 02. Symmetrical Matrix
+###  02. Symmetrical Matrix
 \\({ R }^{ T }R\\)must be symmetrical metrix. Proof is below
 $$
-{ ({ R }^{ T }R) }^{ T }\quad =\quad { R }^{ T }{ ({ R }^{ T }) }^{ T }\quad =\quad { R }^{ T }R
+{ ({ R }^{ T }R) }^{ T }={ R }^{ T }{ ({ R }^{ T }) }^{ T }={ R }^{ T }R
 $$
 ### 03. Vector Space and Subspace
 ##### a. What is vector space
 A vector space (also called a linear space) is a collection of objects called vectors, which may be added together and multiplied ("scaled") by numbers, called scalars. 
 ##### b. Vector Space Example
 \\({ R }^{ 2 }\\) - all 2-dim real vectors.
+
+
 \\({ R }^{ 3 }\\) - all vectors with 3 components.
   
 ##### c. Non Vector Space Example
-you can use an inline formula $$\forall x \in R$$ like this one  
-
-Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
-\\[ \frac{1}{n^{2}} \\]
-
-$$
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*}
-$$
+![](linearAlgebra_lecture05_01.jpg)
+The graph above is not a vector space, because the product between a vector in this space and a negative scalar will be outside of this space.
