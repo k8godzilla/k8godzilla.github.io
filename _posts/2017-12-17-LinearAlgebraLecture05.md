@@ -12,7 +12,9 @@ tags:
 
 # Lecture 05
 **1. PA = LU**
+
 **2. Symmetrical Matrix**
+
 **3. Vector Space, Subspaces**
 
 ---
@@ -33,8 +35,36 @@ A vector space (also called a linear space) is a collection of objects called ve
 \\({ R }^{ 3 }\\) - all vectors with 3 components.
   
 ##### c. Non Vector Space Example
-![](img/01.jpg)
+![](/img/01.jpg)
 The graph above is not a vector space, because the product between a vector in this space and a negative scalar will be outside of this space.
 
 #####  d.Subspace
 Subspace is a vector space that is included by another vector space.
+
+** Example:** 
+
+Subspace of \\({R}^{2}\\)
+
+1. all of \\({R}^{2}\\)
+2. any line that through origin point
+3. zero vector itself
+
+Subspace of \\({R}^{3}\\)
+
+1. all of \\({R}^{3}\\)
+2. any plane through origin point
+3. any line through origin point
+4. zero vector itself
+
+#####  e.What is Column Space?
+In linear algebra, the column space of a matrix A is the span (set of all possible linear combinations) of its column vectors. 
+
+**Example**
+
+The column space of matrix \\(A=\begin{bmatrix} 1 & 3 \\ 2 & 3 \\ 4 & 1 \end{bmatrix}\\) is all linear combinations of its two column vectors.
+
+
+
+
+
+
