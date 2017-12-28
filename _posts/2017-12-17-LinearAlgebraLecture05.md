@@ -10,21 +10,21 @@ tags:
     - Linear Algebra
 ---
 
-# Lecture 05
-1. PA = LU
-2. Symmetrical Matrix
-3. Vector Space, Subspaces
+#Lecture 05
+**1. PA = LU**
+**2. Symmetrical Matrix**
+**3. Vector Space, Subspaces**
 
 ---
-### 01. PA = LU
+###01. PA = LU
 All invertible matrix can be transformed into PA = LU, where P is permutation matrix.
 
-### 02. Symmetrical Matrix
+###02. Symmetrical Matrix
 ![](/Users/sunyin/k8godzilla.github.io/img/linear_Algebra/lecture05_symmeric_transpose.png)
-### 03. Vector Space and Subspace
-##### a. What is vector space
+###03. Vector Space and Subspace
+#####a. What is vector space
 A vector space (also called a linear space) is a collection of objects called vectors, which may be added together and multiplied ("scaled") by numbers, called scalars. 
-##### b. Vector Space Example
+#####b. Vector Space Example
 <math><mrow>
     <msup>
       <mi>R</mi>
@@ -39,7 +39,7 @@ A vector space (also called a linear space) is a collection of objects called ve
     </msup>
   </mrow></math> - all vectors with 3 components.
   
-##### c. Non Vector Space Example
+#####c. Non Vector Space Example
 you can use an inline formula $$\forall x \in R$$ like this one  
 
 Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
