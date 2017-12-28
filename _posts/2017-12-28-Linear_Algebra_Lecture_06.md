@@ -34,11 +34,12 @@ If Both P and L are subspaces, then \\(P\bigcap C\\) is a subspace.
 $$
 Ax=\begin{bmatrix} 1 & 1 & 2 \\ 2 & 1 & 3 \\ 3 & 1 & 4 \\ 4 & 1 & 5 \end{bmatrix}\begin{bmatrix} x_{ 1 } \\ { x }_{ 2 } \\ { x }_{ 3 } \end{bmatrix}=b
 $$
+
 The equation system above has three unknowns and four equations, so the equations may have no solution. Only when b is in C(A), the equation system can be solved.
 
 ### 3. Nullspace of A
 #### Definition
-Nullspace of A is the solution set of Ax = 0. In our case, the nullspace of A is a subspace of \\({R}^{3}\)), while C(A) is a subspace of \\({R}^{4}\)).
+Nullspace of A is the solution set of Ax = 0. In our case, the nullspace of A is a subspace of \\({R}^{3}\\), while C(A) is a subspace of \\({R}^{4}\\).
 
 #### Solution of Ax = 0
 $$
