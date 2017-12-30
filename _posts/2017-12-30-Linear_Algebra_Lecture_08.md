@@ -25,17 +25,25 @@ There are two statements about solvability condition on b
 * If a combinition of rows of A gives zero row, then same combination of entries of b must give zero.
 
 **Example**
+The equation system is below
+
 $$
-\quad \quad Equation\quad System\\ \quad { x }_{ 1 }+2{ x }_{ 2 }+2{ x }_{ 3 }+2{ x }_{ 4 }\quad ={ b }_{ 1 }\\ 2{ x }_{ 1 }+4{ x }_{ 2 }+6{ x }_{ 3 }+8{ x }_{ 4 }\quad ={ b }_{ 2 }\\ 3{ x }_{ 1 }+6{ x }_{ 2 }+8{ x }_{ 3 }+10{ x }_{ 4 }={ b }_{ 3 }
+{ x }_{ 1 }+2{ x }_{ 2 }+2{ x }_{ 3 }+2{ x }_{ 4 }\quad ={ b }_{ 1 }\\ 2{ x }_{ 1 }+4{ x }_{ 2 }+6{ x }_{ 3 }+8{ x }_{ 4 }\quad ={ b }_{ 2 }\\ 3{ x }_{ 1 }+6{ x }_{ 2 }+8{ x }_{ 3 }+10{ x }_{ 4 }={ b }_{ 3 }
 $$
+
+The augmented matrix is below
+
+
 $$
 \begin{bmatrix} 1 & 2 & 2 & 2 & { b }_{ 1 } \\ 2 & 4 & 6 & 8 & { b }_{ 2 } \\ 3 & 6 & 8 & 10 & { b }_{ 3 } \end{bmatrix}\Rightarrow \begin{bmatrix} 1 & 2 & 2 & 2 & { b }_{ 1 } \\ 0 & 0 & 2 & 4 & { b }_{ 2 }-2{ b }_{ 1 } \\ 0 & 0 & 2 & 4 & { b }_{ 3 }-3{ b }_{ 1 } \end{bmatrix}\Rightarrow \begin{bmatrix} 1 & 2 & 2 & 2 & { b }_{ 1 } \\ 0 & 0 & 2 & 4 & { b }_{ 2 }-2{ b }_{ 1 } \\ 0 & 0 & 0 & 0 & { b }_{ 3 }-{ b }_{ 1 }-{ b }_{ 2 } \end{bmatrix}
 $$
 
-In the example above the condition on b to ensure Ax=b solvable is \\({ b }_{ 3 }-{ b }_{ 1 }-{ b }_{ 2 }\\).
+In the example above the condition on b to ensure Ax=b solvable is :$${ b }_{ 3 }-{ b }_{ 1 }-{ b }_{ 2 }$$.
+
+
 
 ### 2. Complete Solution of Ax=b
-Let \\({ b }_{ 1 }=1,{ b }_{ 2 }=5\quad and\quad { b }_{ 3 }=6\\). 
+Let $${ b }_{ 1 }=1,{ b }_{ 2 }=5\quad and\quad { b }_{ 3 }=6$$. 
 
 **Transform into rref form**
 $$

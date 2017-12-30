@@ -23,7 +23,7 @@ tags:
 All invertible matrix can be transformed into PA = LU, where P is permutation matrix.
 
 ###  2. Symmetrical Matrix
-\\({ R }^{ T }R\\)must be symmetrical metrix. Proof is below
+\\({ R }^{ T }R\\) must be symmetrical metrix. Proof is below
 $$
 { ({ R }^{ T }R) }^{ T }={ R }^{ T }{ ({ R }^{ T }) }^{ T }={ R }^{ T }R
 $$
