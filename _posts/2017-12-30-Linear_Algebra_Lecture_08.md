@@ -87,7 +87,7 @@ rref(A) has no all zero rows, so Ax=b can be solved for every b.
 **All four situations**
 
 $$
-1.\quad r=m=n\\ \quad \quad R=I\quad \\ \quad 1\quad solution\\ \\ 2.\quad r=n<m\quad \\ \quad R=\begin{bmatrix} I \\ 0 \end{bmatrix}\\ \quad (0\quad or\quad 1\quad solution)\\ \\ 3.\quad r=m<n\\ \quad \quad R=\begin{bmatrix} I & F \end{bmatrix}\\ \quad \quad (\infty \quad solution)\\ \\ 4.\quad r<m,\quad r<n\\ \quad \quad R=\begin{bmatrix} I & F \\ 0 & 0 \end{bmatrix}\\ \quad \quad (0\quad or\quad \infty \quad solution)
+1.\quad r=m=n:\quad R=I,\quad 1\quad solution\\ 2.\quad r=n<m:\quad R=\begin{bmatrix} I \\ 0 \end{bmatrix},\quad (0\quad or\quad 1\quad solution)\\ 3.\quad r=m<n:\quad R=\begin{bmatrix} I & F \end{bmatrix},\quad (\infty \quad solution)\\ 4.\quad r<m,\quad r<n:\quad R=\begin{bmatrix} I & F \\ 0 & 0 \end{bmatrix},\quad (0\quad or\quad \infty \quad solution)
 $$
 
 Notice that I and F might be column-mixed.
