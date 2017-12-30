@@ -5,7 +5,7 @@ subtitle:
 date:       2017-12-27
 author:     Sun Yin
 header-img: img/tags_linearAlgebra.png
-catalog: false
+catalog: true
 tags:
     - Linear Algebra
 ---
