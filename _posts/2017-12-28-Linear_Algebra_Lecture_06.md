@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Lecture 06 (Linear Algebra)
-subtitle:   Vector Space and Subspace, Column Space of A, Nullspace of A
+subtitle:   
 date:       2017-12-28
 author:     Sun Yin
 header-img: img/tags_linearAlgebra.png
