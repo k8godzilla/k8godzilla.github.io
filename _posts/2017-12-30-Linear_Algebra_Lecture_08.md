@@ -47,7 +47,7 @@ Let $${ b }_{ 1 }=1,{ b }_{ 2 }=5\quad and\quad { b }_{ 3 }=6$$.
 
 **Transform into rref form**
 $$
-\begin{bmatrix} 1 & 2 & 2 & 2 & { b }_{ 1 } \\ 0 & 0 & 2 & 4 & { b }_{ 2 }-2{ b }_{ 1 } \\ 0 & 0 & 0 & 0 & { b }_{ 3 }-{ b }_{ 1 }-{ b }_{ 2 } \end{bmatrix}=\begin{bmatrix} \boxed { 1 }  & 2 & 2 & 2 & 1 \\ 0 & 0 & \boxed { 2 }  & 4 & 3 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}\Rightarrow \begin{bmatrix} \boxed { 1 }  & 2 & 0 & -2 & -2 \\ 0 & 0 & \boxed { 1 }  & 2 & \sfrac { 3 }{ 2 }  \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}
+\begin{bmatrix} 1 & 2 & 2 & 2 & { b }_{ 1 } \\ 0 & 0 & 2 & 4 & { b }_{ 2 }-2{ b }_{ 1 } \\ 0 & 0 & 0 & 0 & { b }_{ 3 }-{ b }_{ 1 }-{ b }_{ 2 } \end{bmatrix}=\begin{bmatrix} \boxed { 1 }  & 2 & 2 & 2 & 1 \\ 0 & 0 & \boxed { 2 }  & 4 & 3 \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}\Rightarrow \begin{bmatrix} \boxed { 1 }  & 2 & 0 & -2 & -2 \\ 0 & 0 & \boxed { 1 }  & 2 & { 3 }/{ 2 } \\ 0 & 0 & 0 & 0 & 0 \end{bmatrix}
 $$
 
 **Set the free variables to zero, get particular solution**
