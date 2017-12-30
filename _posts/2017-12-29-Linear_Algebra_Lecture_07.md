@@ -19,7 +19,7 @@ tags:
 ---
 ### Case 1
 $$
-\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad U\\ A=\begin{bmatrix} 1 & 2 & 2 & 2 \\ 2 & 4 & 6 & 8 \\ 3 & 6 & 8 & 10 \end{bmatrix}\Rightarrow \begin{bmatrix} 1 & 2 & 2 & 2 \\ 0 & 0 & 2 & 4 \\ 0 & 0 & 2 & 4 \end{bmatrix}\Rightarrow \begin{bmatrix} \boxed { 1 }  & 2 & 2 & 2 \\ 0 & 0 & \boxed { 2 }  & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}
+\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad  U\\ A=\begin{bmatrix} 1 & 2 & 2 & 2 \\ 2 & 4 & 6 & 8 \\ 3 & 6 & 8 & 10 \end{bmatrix}\Rightarrow \begin{bmatrix} 1 & 2 & 2 & 2 \\ 0 & 0 & 2 & 4 \\ 0 & 0 & 2 & 4 \end{bmatrix}\Rightarrow \begin{bmatrix} \boxed { 1 }  & 2 & 2 & 2 \\ 0 & 0 & \boxed { 2 }  & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix}
 $$
 The first and third column are *pivot column*. The second and fourth column are *free variable*.
 
