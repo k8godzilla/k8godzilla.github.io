@@ -52,7 +52,7 @@ $$
 
 **Set the free variables to zero, get particular solution**
 $$
- { X }_{ p }=\begin{bmatrix} 2 \\ 0 \\ -\sfrac { 3 }{ 2 }  \\ 0 \end{bmatrix}
+ { X }_{ p }=\begin{bmatrix} 2 \\ 0 \\ -{ 3 }/{ 2 } \\ 0 \end{bmatrix}
 $$
 
 **Add nullspace to particular solution to get complete solution**
@@ -60,6 +60,36 @@ $$
 $$
  \begin{matrix} A{ X }_{ p }=b \\ AX_{ n }=0 \end{matrix}\Rightarrow A({ X }_{ p }+{ X }_{ n })=b 
 $$
+
 $$
-{ X }_{ complete }=\begin{bmatrix} -2 \\ 0 \\ \sfrac { 3 }{ 2 }  \\ 0 \end{bmatrix}+{ c }_{ 1 }\begin{bmatrix} -2 \\ 1 \\ 0 \\ 0 \end{bmatrix}+{ c }_{ 2 }\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1 \end{bmatrix}
+{ X }_{ complete }=\begin{bmatrix} -2 \\ 0 \\ { 3 }/{ 2 } \\ 0 \end{bmatrix}+{ c }_{ 1 }\begin{bmatrix} -2 \\ 1 \\ 0 \\ 0 \end{bmatrix}+{ c }_{ 2 }\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1 \end{bmatrix}
 $$
+
+### 3. Row, Column, Rank and Solution
+Matrix A is a m by n matrix with rank r (then we know r <= m, r <= n).
+
+**Full column rank(r=n)**
+
+$$
+A=\begin{bmatrix} 1 & 3 \\ 2 & 1 \\ 6 & 1 \\ 5 & 1 \end{bmatrix}\quad R=\begin{bmatrix} 1 & 0 \\ 0 & 1 \\ 0 & 0 \\ 0 & 0 \end{bmatrix}
+$$
+
+There is no free variables, so N(A) = {zero vector}. The solution to Ax=b is none or one particular solution.
+
+**Full column rank(r=m)**
+
+$$
+A=\begin{bmatrix} 1 & 2 & 6 & 5 \\ 3 & 1 & 1 & 1 \end{bmatrix}\quad R=\begin{bmatrix} 1 & 0 & - & - \\ 0 & 1 & - & - \end{bmatrix}
+$$
+
+rref(A) has no all zero rows, so Ax=b can be solved for every b.
+
+**All four situations**
+
+$$
+1.\quad r=m=n\quad \quad \quad \quad \quad 2.\quad r=n<m\quad \quad \quad \quad \quad \quad \quad \quad \quad 3.\quad r=m<n\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad 4.r<m,\quad r<n\quad \\ \quad \quad R=I\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad R=\begin{bmatrix} I \\ 0 \end{bmatrix}\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad R=\begin{bmatrix} I & F \end{bmatrix}\quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad R=\begin{bmatrix} I & F \\ 0 & 0 \end{bmatrix}\\ \quad \quad 1\quad solution\quad \quad \quad \quad \quad (0\quad or\quad 1\quad solution)\quad \quad \quad (\infty \quad solution)\quad \quad \quad \quad \quad \quad \quad \quad (0\quad or\quad \infty \quad solution)
+$$
+
+Notice that I and F might be column-mixed.
+   
+
