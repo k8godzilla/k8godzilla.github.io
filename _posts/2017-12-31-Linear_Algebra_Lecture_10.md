@@ -48,11 +48,11 @@ Notice that $${ A }^{ T }y=0\quad \Rightarrow \quad { y }^{ T }A=0$$. To find th
 To find the proper row combination, we can write the row exchange into matrix form:
 
 $$
-E\begin{bmatrix} { A }_{ m*n } & { I }_{ m*m } \end{bmatrix}\rightarrow \begin{bmatrix} { R }_{ m*n } & { E }_{ m*m } \end{bmatrix}\\ EA\quad =\quad R
+E\begin{bmatrix} { A }_{ m*n } & { I }_{ m*m } \end{bmatrix}\rightarrow \begin{bmatrix} { R }_{ m*n } & { E }_{ m*m } \end{bmatrix}\\ \\ EA\quad =\quad R
 $$
 
 $$
-\quad \quad \quad E\quad \quad \quad \quad \quad \quad \quad A\quad \quad \quad \quad \quad \quad \quad \quad R\\ \begin{bmatrix} -1 & 2 & 0 \\ 1 & -1 & 0 \\ -1 & 0 & 1 \end{bmatrix}\begin{bmatrix} 1 & 2 & 3 & 1 \\ 1 & 1 & 2 & 1 \\ 1 & 2 & 3 & 1 \end{bmatrix}\rightarrow \begin{bmatrix} 1 & 0 & 1 & 1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}
+\quad E\quad \quad \quad \quad \quad \quad \quad A\quad \quad \quad \quad \quad \quad \quad \quad R\\ \begin{bmatrix} -1 & 2 & 0 \\ 1 & -1 & 0 \\ -1 & 0 & 1 \end{bmatrix}\begin{bmatrix} 1 & 2 & 3 & 1 \\ 1 & 1 & 2 & 1 \\ 1 & 2 & 3 & 1 \end{bmatrix}\rightarrow \begin{bmatrix} 1 & 0 & 1 & 1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}
 $$
 
 The basis of N($${A}^{T}$$) is $$\begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix}$$.
