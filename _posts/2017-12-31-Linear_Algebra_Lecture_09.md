@@ -29,19 +29,25 @@ Suppor a matrix with m by n and m<n, then there must be non zero vectors in N(A)
 
 **Definition**
 
+Vectors$$\quad { X }_{ 1 },{ X }_{ 2 },......,{ X }_{ n }\quad$$ are independent if no combination gives zero vector(except zero combination).
+
 $$
-Vectors\quad { X }_{ 1 },{ X }_{ 2 },......,{ X }_{ n }\quad are\quad independent\quad if\quad no\quad combination\quad gives\\ zero\quad vector(except\quad zero\quad combination).\\ \\ { c }_{ 1 }{ X }_{ 1 }+{ c }_{ 2 }{ X }_{ 2 }+......+{ c }_{ N }{ X }_{ n }\neq 0
+{ c }_{ 1 }{ X }_{ 1 }+{ c }_{ 2 }{ X }_{ 2 }+......+{ c }_{ N }{ X }_{ n }\neq 0
 $$
 
 **Comparison**
 
-$$
-{ V }_{ 1 },{ V }_{ 2 },......,{ V }_{ N }\quad are\quad column\quad vectors\quad of\quad matrix\quad A.
-$$
+$${ V }_{ 1 },{ V }_{ 2 },......,{ V }_{ N }\quad$$ are column vectors of matrix A.
 
-$$
-They\quad are\quad independent\quad if:\\ The\quad nullspace\quad of\quad A\quad is\quad \{ zero\quad vector\} \Leftrightarrow No\quad free\quad variables\Leftrightarrow rank=N\\ \\ They\quad are\quad dependent\quad if:\\ There\quad are\quad nonzero\quad vector\quad make\quad Av=0\Leftrightarrow Having\quad free\quad variables\Leftrightarrow rank<N\\ \quad \quad 
-$$
+
+
+They are independent if:
+
+The nullspace of A is { zero vector} $$\Leftrightarrow$$ No free variables $$\Leftrightarrow$$ rank=N 
+
+They are dependent if:
+
+There are nonzero vector that make Av=0 $$\Leftrightarrow$$ Having free variables$$\Leftrightarrow$$ rank<N
 
 ### 2. Span Space
 
@@ -73,6 +79,7 @@ A=\begin{bmatrix} 1 & 2 & 3 & 1 \\ 1 & 1 & 2 & 1 \\ 1 & 2 & 3 & 1 \end{bmatrix}
 $$
 
 2 = the rank of A = the number of pivots of A = **dimension of C(A)**
+
 4 = n - 2 = the number of free variables = **dimension of N(A)**
 
 
