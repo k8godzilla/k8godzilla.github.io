@@ -37,17 +37,13 @@ $$
 
 **Comparison**
 
-$${ V }_{ 1 },{ V }_{ 2 },......,{ V }_{ N }\quad$$ are column vectors of matrix A.
+$${ V }_{ 1 },{ V }_{ 2 },......,{ V }_{ N }$$ are column vectors of matrix A.
 
 
 
-They are independent if:
+They are **independent** if: The nullspace of A is { zero vector} $$\Leftrightarrow$$ No free variables $$\Leftrightarrow$$ rank=N 
 
-The nullspace of A is { zero vector} $$\Leftrightarrow$$ No free variables $$\Leftrightarrow$$ rank=N 
-
-They are dependent if:
-
-There are nonzero vector that make Av=0 $$\Leftrightarrow$$ Having free variables$$\Leftrightarrow$$ rank<N
+They are **dependent** if: There are nonzero vector that make Av=0 $$\Leftrightarrow$$ Having free variables$$\Leftrightarrow$$ rank<N
 
 ### 2. Span Space
 
