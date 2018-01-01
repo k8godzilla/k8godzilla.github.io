@@ -76,20 +76,22 @@ $$
 
 These two basis are the two loops of the network.
 
+When outer current is exerted in the network. The euqation would become $${A}^{T}$$y=g, where g is the outer current.
+
 ### 4. Eular's formula
 
 In our network case:
 
-Number of loops = the number of free variables of $${A}^{T}$$ = m - r.
+**Number of loops** = the number of free variables of $${A}^{T}$$ = m - r.
 
-m = number of edges.
+m = **number of edges**.
 
-r = number of nodes - 1.
+r = **number of nodes - 1**.
 
-So, number of loops = number of edges - number of nodes + 1.
+So, **number of loops = number of edges - number of nodes + 1**.
 
 This is Eular's formula and can be applied to any network.
 
-Notice that the loop in our discussion should be dependent - none edge is inside the loop. 
- 
+Notice that the loop in our discussion should be dependent - **none edge is inside the loop**. 
+
 
