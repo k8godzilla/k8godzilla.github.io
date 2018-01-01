@@ -15,7 +15,7 @@ tags:
 
 **2. Nullspace$$\bot$$Rowspace**
 
-**3. N($${A}^{T}$$A)=N(A)**
+**3. N($${A}^{T}A$$)=N(A)**
 
 ---
 
@@ -44,7 +44,7 @@ $$
 
 Actually nullspace are not only the orthognal subspace of rowspace. It contains all vectors perpendicular to rowspace. So nullspace and rowspace are **orthognal complements** in $${R}^{N}$$.
 
-### 3. N($${A}^{T}$$A)=N(A)
+### 3. N($${A}^{T}A$$)=N(A)
 
 **Problem**
 
