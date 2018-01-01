@@ -23,7 +23,7 @@ tags:
 
 ### 1. Graph a network
 
-![](img/LA_10_01.jpg)
+![](/img/LA_10_01.jpg)
 
 Nodes: n = 4
 Edges: m = 5
