@@ -52,7 +52,7 @@ E\begin{bmatrix} { A }_{ m*n } & { I }_{ m*m } \end{bmatrix}\rightarrow \begin{b
 $$
 
 $$
-\quad E\quad \quad \quad \quad \quad \quad \quad A\quad \quad \quad \quad \quad \quad \quad \quad R\\ \begin{bmatrix} -1 & 2 & 0 \\ 1 & -1 & 0 \\ -1 & 0 & 1 \end{bmatrix}\begin{bmatrix} 1 & 2 & 3 & 1 \\ 1 & 1 & 2 & 1 \\ 1 & 2 & 3 & 1 \end{bmatrix}\rightarrow \begin{bmatrix} 1 & 0 & 1 & 1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}
+\quad E\quad \quad \quad \quad \quad \quad A\quad \quad \quad \quad \quad \quad \quad \quad R\\ \begin{bmatrix} -1 & 2 & 0 \\ 1 & -1 & 0 \\ -1 & 0 & 1 \end{bmatrix}\begin{bmatrix} 1 & 2 & 3 & 1 \\ 1 & 1 & 2 & 1 \\ 1 & 2 & 3 & 1 \end{bmatrix}\rightarrow \begin{bmatrix} 1 & 0 & 1 & 1 \\ 0 & 1 & 1 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}
 $$
 
 The basis of N($${A}^{T}$$) is $$\begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix}$$.
