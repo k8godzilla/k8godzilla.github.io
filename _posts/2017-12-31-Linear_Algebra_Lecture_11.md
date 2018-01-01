@@ -70,9 +70,9 @@ $$
 S$$\bigcap$$U is not a subspace. S+U is a subspace which is exatly M.
 Then we have the dimension relationship: dim(S) + dim(U) = dim(S+U) + dim(S$$\bigcup$$U)
 
-###2. Analogy of differential equation
+### 2. Analogy of differential equation
 
-equation: $$\sfrac { { d }^{ 2 }y }{ d{ x }^{ 2 } } +y=0$$
+equation: $${ { d }^{ 2 }y }/{ d{ x }^{ 2 } }+y=0$$
 
 dimension of solution space: 2. Because this second-order differential equation.
 
@@ -81,7 +81,7 @@ solution basis: cos(x), sin(x).
 complete solution: y = $${c}_{1}$$cos(x) + $${c}_{2}$$in(x)
 
 
-###3.Rank one matrix
+### 3.Rank one matrix
 
 All rank one matrix can be written as $$u{v}^{T}$$, where u and v are vectors.The example is below: 
 
@@ -89,7 +89,7 @@ $$
 A=\begin{bmatrix} 1 & 4 & 5 \\ 2 & 8 & 10 \end{bmatrix}=\begin{bmatrix} 1 \\ 2 \end{bmatrix}\begin{bmatrix} 1 & 4 & 5 \end{bmatrix}
 $$
 
-###4. Simple case about four spaces
+### 4. Simple case about four spaces
 
 S = all vectors in $${R}^{4}$$ with $${v}_{1}+{v}_{2}+{v}_{3}+{v}_{4}=0$$.
 
