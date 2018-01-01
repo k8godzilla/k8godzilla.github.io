@@ -78,7 +78,7 @@ dimension of solution space: 2. Because this second-order differential equation.
 
 solution basis: cos(x), sin(x).
 
-complete solution: y = $${c}_{1}$$cos(x) + $${c}_{2}$$in(x)
+complete solution: y = $${c}_{1}$$cos(x) + $${c}_{2}$$sin(x)
 
 
 ### 3.Rank one matrix
