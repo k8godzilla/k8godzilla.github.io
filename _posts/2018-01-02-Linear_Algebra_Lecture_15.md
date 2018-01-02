@@ -27,7 +27,7 @@ Because Ax=b may have no solution, we solve $$A\hat{x}=p$$ instead, where p is t
 
 ![](/img/linear_Algebra/projecction_to_line.001.jpg)
 
-Because the projection point is on line a, we can write as xa. The line that goes through b and projection point is orthognal to a, we apply this condition to derive projection matrix and projection point:
+Because the projection point is on line a, we can write it as xa. The line e that goes through b and projection point is orthognal to a, we apply this condition to derive projection matrix P and projection point p:
 
 $$
 {a}^{T}(b-ax)=0
@@ -49,7 +49,7 @@ $$
 projection\quad matrix\quad P\quad =\quad \frac { { a }{ a }^{ T } }{ { a }^{ T }a } 
 $$
 
-Projection point can be wriiten as p = Pb. As projection matrix P can and only can project to any point on a, P share column space with a. And rank(P) = rank(a) = 1.
+Projection point can be wriiten as p = Pb. Because p can be any point on a, P share column space with a. And rank(P) = rank(a) = 1.
 
 Projection matrix has two important properties:
 
@@ -62,7 +62,7 @@ Projection matrix has two important properties:
 
 The plane is the column space of $${a}_{1}$$ and $${a}_{2}$$, So any point on the plane can be written as $$A\hat { x }$$ where $$A=\begin{bmatrix} { a }_{ 1 } & { a }_{ 2 } \end{bmatrix}$$.
 
-The problem is to find $$\hat{x}$$, s.t. $$e=b-a\hat{x}$$ is perpendicular to plane.
+The problem is to find $$\hat{x}$$, s.t. $$e=b-a\hat{x}$$ is perpendicular to the plane.
 
 $$
 { a }_{ 1 }^{ T }(b-A\hat { x } )=0\quad { a }_{ 2 }^{ T }(b-A\hat { x } )=0\quad 
