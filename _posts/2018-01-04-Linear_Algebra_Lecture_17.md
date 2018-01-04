@@ -37,7 +37,7 @@ From wiki:
 
 >In linear algebra, an orthogonal matrix or real orthogonal matrix is a square matrix with real entries whose columns and rows are orthogonal unit vectors (i.e., orthonormal vectors), i.e.
 >
->$${Q}^{T}Q=I
+>$${Q}^{T}Q=I$$
 
 **Properties**
 
@@ -48,7 +48,7 @@ If Q is a square and orthogonal matrix, we have $${Q}^{T}={Q}^{-1}$$.
 **Example**
 
 $$
-permutation\quad matrix\\ \\ Q=P=\begin{bmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}\quad 
+Q=P=\begin{bmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{bmatrix}\quad 
 $$
 
 $$
