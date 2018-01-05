@@ -15,7 +15,7 @@ tags:
 
 **2. Orthogonal Martix**
 
-**3. Gram-Schmidt $A\rightarrowQ$**
+**3. Gram-Schmidt Method**
 
 ---
 
@@ -73,7 +73,7 @@ $$
 \hat { x } ={ ({ A }^{ T }A) }^{ -1 }{ A }^{ T }b\quad \Rightarrow \quad \hat { x } ={ ({ Q }^{ T }Q) }^{ -1 }{ Q }^{ T }b={ Q }^{ T }b
 $$
 
-### 3.Gram-Schmidt $A\rightarrowQ$
+### 3.Gram-Schmidt Method
 
 We have three independent but not orthogonal vectors a,b,c in $${R}^{N}$$, how to find their corresponding orthogonormal vectors?
 
