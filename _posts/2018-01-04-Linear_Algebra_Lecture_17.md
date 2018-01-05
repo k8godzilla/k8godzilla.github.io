@@ -73,6 +73,54 @@ $$
 \hat { x } ={ ({ A }^{ T }A) }^{ -1 }{ A }^{ T }b\quad \Rightarrow \quad \hat { x } ={ ({ Q }^{ T }Q) }^{ -1 }{ Q }^{ T }b={ Q }^{ T }b
 $$
 
+### 3.Gram-Schmidt $A\rightarrowQ$
+
+We have three independent but not orthogonal vectors a,b,c in $${R}^{N}$$, how to find their corresponding orthogonormal vectors?
+
+**Schmidt-a**
+
+Normalize a.
+
+$${ q }_{ 1 }={ a }/{ \left\| a \right\|  }$$
+
+**Gram-b**
+
+Remove the part that perpendicular to a from b.
+
+$$
+b=b-{ { a }^{ T }ba }/{ { a }^{ T }a }
+$$
+
+**Schmidt-b**
+
+Normalize b.
+
+$$
+{ q }_{ 2 }={ b }/{ \left\| b \right\|  }
+$$
+
+**Gram-c**
+
+Remove the part that perpendicular to a and b from c.
+
+$$
+c=c-{ { a }^{ T }ca }/{ { a }^{ T }a }-{ { b }^{ T }cb }/{ { b }^{ T }b }
+$$
+
+**Schmidt-c**
+
+Normalize c.
+
+$$
+{ q }_{ 3 }={ b }/{ \left\| b \right\|  }
+$$
+
+**Column Space**
+
+Because the Gram-Schmidt method only involves in column manipulation, the column space of $${q}_{1},{q}_{2},{q}_{3}$$ is same with a,b,c. And the method can be represented in a matrix style A=QR.
+
+
+
 
 
 
