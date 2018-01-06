@@ -61,7 +61,7 @@ $$
 
 **property 6**
 
-Row of zeros$$\rightarraw$$det A = 0.
+Row of zeros$$\Rightarrow$$det A = 0.
 
 $$
 \begin{vmatrix} 0 & 0 \\ a & b \end{vmatrix}\overset { p5 }{ = } \begin{vmatrix} a & b \\ a & b \end{vmatrix}\overset { p4 }{ = } 0
