@@ -56,3 +56,33 @@ $$
 $$
 
 $${B}_{j}$$=A with column j replaced by b.
+
+### 3.$$\begin{vmatrix} Det\quad A \end{vmatrix}$$= volume of box
+
+**Proof**
+
+A simple proof is that we just need to make sure that in $${R}^{3}$$ the volume of the bex with the three columns as the edge, satisfies the three basic properties of determinant.
+
+**2D case**
+
+![](/img/linear_Algebra/2d.jpg)
+
+By this rule, the area of the Parallelogram and triangle with node as origin point can be computed by:
+
+$$
+{ S }_{ parallelogram }=\begin{vmatrix} a & c \\ b & d \end{vmatrix}=ad-bc
+$$
+
+$$
+{ S }_{ triangle }=({ 1 }/{ 2 })\begin{vmatrix} a & c \\ b & d \end{vmatrix}=({ 1 }/{ 2 })(ad-bc)
+$$
+
+![](/img/linear_Algebra/2d_triangle.jpg)
+
+When none of the three nodes is origin point, the area of triangle can computed by
+
+$$
+{ S }_{ triangle }=({ 1 }/{ 2 })\begin{vmatrix} { x }_{ 2 }-{ x }_{ 1 } & { x }_{ 3 }-{ x }_{ 1 } \\ { y }_{ 2 }-{ y }_{ 1 } & { y }_{ 3 }-{ y }_{ 1 } \end{vmatrix}=({ 1 }/{ 2 })(({ x }_{ 2 }-{ x }_{ 1 })({ y }_{ 3 }-{ y }_{ 1 })-({ x }_{ 3 }-{ x }_{ 1 })({ y }_{ 2 }-{ y }_{ 1 }))
+$$
+
+This property tells us that the det A imply how much matrix A stretch the space. The singular matrix with dertimant as 0 means that at least one dimension of space collapse.
