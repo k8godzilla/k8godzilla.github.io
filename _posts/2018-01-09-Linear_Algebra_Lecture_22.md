@@ -77,5 +77,48 @@ $$
 { u }_{ k }={ A }^{ k }{ u }_{ 0 }={ c }_{ 1 }{ \Lambda  }^{ k }{ x }_{ 1 }+{ c }_{ 2 }{ \Lambda  }^{ k }{ x }_{ 2 }+...+{ c }_{ n }{ { \Lambda  }^{ k }x }_{ n }={ \Lambda  }^{ k }Sc
 $$
 
+**Example**
 
+Fibonacci Series: 0,1,1,2,3,5,8,... What is $${F}_{100}$$?
 
+Trick:
+
+$$
+{ F }_{ k+2 }={ F }_{ k+1 }+{ F }_{ k }
+$$
+
+$$
+{F}_{k+1}={F}_{k+1}
+$$
+
+$$
+{ u }_{ k+1 }=\begin{bmatrix} { F }_{ k+1 } \\ { F }_{ k } \end{bmatrix}
+$$
+
+$$
+{ u }_{ k+1 }=\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}{ u }_{ k }
+$$
+
+$$
+A=\begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix}
+$$
+
+$$
+\begin{vmatrix} A-\lambda I \end{vmatrix}=\begin{vmatrix} 1-\lambda  & 1 \\ 1 & -\lambda  \end{vmatrix}={ \lambda  }^{ 2 }-\lambda -1=0
+$$
+
+$$
+{ \lambda  }_{ 1 }={ (1+\sqrt { 5 } ) }/{ 2 }\approx 1.618\\ { \lambda  }_{ 2 }={ (1-\sqrt { 5 } ) }/{ 2 }\approx -0.618
+$$
+
+$$
+\because \quad { ({ \lambda  }_{ 2 }) }^{ 100 }\approx 0\\ \therefore { F }_{ 100 }\approx { c }_{ 1 }{ u }_{ 0 }{ ({ \lambda  }_{ 1 }) }^{ 100 }
+$$
+
+$$
+\because \quad { ({ \lambda  }_{ 2 }) }^{ 100 }\approx 0\\ \therefore { F }_{ 100 }\approx { c }_{ 1 }{ u }_{ 0 }{ ({ \lambda  }_{ 1 }) }^{ 100 }
+$$
+
+$$
+{ x }_{ 1 }=\begin{bmatrix} { \lambda  }_{ 1 } \\ 1 \end{bmatrix},\quad { x }_{ 2 }=\begin{bmatrix} { \lambda  }_{ 2 } \\ 1 \end{bmatrix}\\ { c }_{ 1 }\quad and\quad { c }_{ 2 }\quad can\quad be\quad computed\quad from\quad { x }_{ 1 }\quad and\quad { x }_{ 2 }.
+$$
