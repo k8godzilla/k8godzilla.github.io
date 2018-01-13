@@ -75,7 +75,7 @@ $$
 { 64 }^{ 2 }\rightarrow 2{ (32) }^{ 2 }+32\rightarrow 2[2{ (16) }^{ 2 }+16]+32\rightarrow 6*32\\ 
 $$
 
-##
+$$
 { n }^{ 2 }\rightarrow \frac { 1 }{ 2 } n\log _{ 2 }{ n } 
 $$
 
