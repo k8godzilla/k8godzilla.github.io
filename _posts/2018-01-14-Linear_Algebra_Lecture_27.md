@@ -108,7 +108,7 @@ Because A positive definite, the graph of $${x}^{T}Ax=constant$$ is a closed bal
 
 The axis of the ball is along the direction of eigenvectors, and the axis length is corresponding eigenvalues. That is to say, diagonolized form $$A=Q\Lambda { Q }^{ T }$$ indicates how matrix A distort the space.
 
-![](/img/linear_Algebra/3D.001.jpg)
+![](/img/linear_Algebra/3d.001.jpg)
 
 
 
