@@ -23,15 +23,15 @@ Any m by n matrix A can be decomposed into form $$A=U{\Sigma}{V}^{T}$$, where $$
 
 ### 2. From Row Space, Column Space To SVD
 
-*Row Space*
+**Row Space**
 
 $${v}_{1}, {v}_{2}, ..., {v}_{r}$$ is orthogonal basis of row space of A.
 
-*Column Space*
+**Column Space**
 
 $${u}_{1}=A{v}_{1}, {u}_{2}=A{v}_{2}, ...{u}_{r}=A{v}_{r}$$ is corresponding basis of column space of A.
 
-*sigma*
+**sigma**
 
 To make u be a unit length vector, we introduce stretch coef $${\sigma}$$:
 
@@ -39,7 +39,7 @@ $$
 A{ v }_{ 1 }={ \sigma  }_{ 1 }{ u }_{ 1 },\quad A{ v }_{ 2 }={ \sigma  }_{ 2 }{ u }_{ 2 }\quad ,...,\quad A{ v }_{ r }={ \sigma  }_{ r }{ u }_{ r }
 $$
 
-*Matrix Form*
+**Matrix Form**
 
 $$
 A\begin{bmatrix} { v }_{ 1 } & { v }_{ 2 } & ... & { v }_{ r } & { v }_{ r+1 } & ... & { v }_{ n } \end{bmatrix}=\begin{bmatrix} { u }_{ 1 } & { u }_{ 2 } & ... & { u }_{ r } & { u }_{ r+1 } & ... & { u }_{ n } \end{bmatrix}\begin{bmatrix} { \sigma  }_{ 1 } &  &  &  \\  & { \sigma  }_{ 2 } &  &  \\  &  & ... &  \\  &  &  & ... \end{bmatrix}
@@ -51,7 +51,7 @@ $$
 
 So the key is to find a set of orthogonal basis of A's rowspace that make sure $${u}_{i}=A{v}_{i}$$ is still orthogonal in column space.
 
-*How to find V And U*
+**How to find V And U**
 
 $$
 A{ A }^{ T }=U\Sigma { V }^{ T }V{ \Sigma  }^{ T }{ U }^{ T }=V{ \Sigma  }^{ T }\Sigma { V }^{ T }=V\begin{bmatrix} { \sigma  }_{ 1 }^{ 2 } &  &  &  \\  & { \sigma  }_{ 2 }^{ 2 } &  &  \\  &  & ... &  \\  &  &  & ... \end{bmatrix}{ V }^{ T }
@@ -65,7 +65,7 @@ $$
 
 U is the eigenvectors of $$A{A}^{T}$$. And $$\Sigma$$ is the sqaured root of $$A{A}^{T}$$ and $${A}^{T}A$$.
 
-*Example*
+**Example**
 
 $$
 A=\begin{bmatrix} 4 & 4 \\ -3 & 3 \end{bmatrix}
@@ -89,7 +89,7 @@ $$
 A=\begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}\begin{bmatrix} 32 & 0 \\ 0 & 18 \end{bmatrix}\begin{bmatrix} { 1 }/{ \sqrt { 2 }  } & { 1 }/{ \sqrt { 2 }  } \\ { 1 }/{ \sqrt { 2 }  } & { -1 }/{ \sqrt { 2 }  } \end{bmatrix}
 $$
 
-*SVD and Four Subspaces*
+**SVD and Four Subspaces**
 
 * $${v}_{1}$$, $${v}_{2}$$, ...,$${v}_{r}$$ is the orthogonal basis for rowspace.
 * $${u}_{1}$$, $${u}_{2}$$, ...,$${u}_{r}$$ is the orthogonal basis for columnspace.
