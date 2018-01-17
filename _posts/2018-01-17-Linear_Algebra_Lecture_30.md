@@ -13,7 +13,7 @@ tags:
 
 **1. Linear Transform Examples**
 
-**2. Build Maxix A for Linear Transform**
+**2. Build Matrix A for Linear Transform**
 
 ---
 
