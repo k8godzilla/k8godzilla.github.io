@@ -68,7 +68,7 @@ $$
 \begin{bmatrix} 1 & 0 \\ 0 & 0 \end{bmatrix}\begin{bmatrix} { c }_{ 1 } \\ { c }_{ 2 } \end{bmatrix}=\begin{bmatrix} { c }_{ 1 } \\ 0 \end{bmatrix}
 $$
 
-Matrix A is diagonal because the basis $${v}_{1}$$ and $${v}_{2}$$ is the eigenvectors.
+Matrix A is diagonal because the basis $${v}_{1}$$ and $${v}_{2}$$ is the eigenvectors of A.
 
 **Project to $${45}^{。}$$ line**
 

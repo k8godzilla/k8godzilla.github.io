@@ -45,3 +45,5 @@ $$
 ### 2. Basis Change and Linear Transform*
 
 T is a linear transformation. And A is the corresponding matrix of T with respect to basis set V and B is the corresponding matrix of T with respect to basis set W. Then we have B is similar to A. That is to say, $$B={M}^{-1}AM$$.
+
+
