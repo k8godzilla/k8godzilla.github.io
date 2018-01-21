@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Lecture Notes 01 (Reinforcement Learning - David Silver's Course)
-subtitle:   
+title:      Lecture Notes 01 
+subtitle:   Reinforcement Learning - David Silver's Course
 date:       2018-01-20
 author:     Sun Yin
 header-img: img/rlsilver/fengmian.png
@@ -13,7 +13,7 @@ tags:
 
 **1. The RL Problem**
 
-**2. Basis Change and Linear Transform**
+**2. Inside An RL Agent**
 
 ---
 
@@ -37,3 +37,34 @@ tags:
 * State is the infomation uesd to determine what happens next. It is the function of history: $${S}_{t}=f({H}_{t})$$.
 * $${ S }_{ t }^{ e }$$ is the representation of enviroment and ususally not visible to agents.
 * $${ S }_{ t }^{ a }$$ is the infomation used by reinforcemnt learning algorithms and can be function of history: $${S}_{t}^{a}=f({H}_{t})$$.
+* An information state (a.k.a Markov state) contains all uesful information from the history. The formal definition is:
+
+> A state $${S}_{t]$$ is Markov if and only if
+> 
+> P\left[ { S }_{ t+1 }|{ S }_{ t } \right] =P\left[ { S }_{ t+1 }|{ S }_{ 1 },...,{ S }_{ t } \right] 
+
+* A process is a **Markov decision process** if it satisfies full ovservability condition: $${O}_{t}={S}_{t}^{a}={S}_{t}^{e}$$.
+* A process is a **partially observable Markov decision process** if agent indirectly observes enviroment(such as Poker game).
+
+
+### 2. Inside An RL Agent
+
+An RL agent may consist of one or more of these three components: policy, value function and model.
+
+* Policy is a map from the state to action. Deterministic policy: $$a=\pi (s)$$.Stochastic policy: $$\pi (a|s)=P\left[ { A }_{ t }=a|{ S }_{ t }=s \right] $$.
+* Value funtion:
+
+$$
+{ v }_{ \pi  }(s)={ E }_{ \pi  }\left[ { R }_{ t+1 }+\gamma { R }_{ t+2 }+{ \gamma  }^{ 2 }{ R }_{ t+3 }+...|{ S }_{ t }=s \right] 
+$$
+
+* Model predicts next state and next(immediate) reward
+
+$$
+{ P }_{ s{ s }^{ ' } }^{ a }=P\left[ { S }_{ t+1 }={ s }^{ ' }|{ S }_{ t }=s,{ A }_{ t }=a \right] 
+$$
+
+$$
+{ R }_{ s }^{ a }=E\left[ { R }_{ t+1 }|{ S }_{ t }=s,{ A }_{ t }=a \right] 
+$$
+
