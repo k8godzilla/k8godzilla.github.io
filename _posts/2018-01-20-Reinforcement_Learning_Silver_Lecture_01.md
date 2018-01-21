@@ -15,6 +15,8 @@ tags:
 
 **2. Inside An RL Agent**
 
+**3. Problems within RL**
+
 ---
 
 ### 1. The RL Problem
@@ -51,7 +53,8 @@ tags:
 
 An RL agent may consist of one or more of these three components: policy, value function and model.
 
-* Policy is a map from the state to action. Deterministic policy: $$a=\pi (s)$$.Stochastic policy: $$\pi (a|s)=P\left[ { A }_{ t }=a|{ S }_{ t }=s \right] $$.
+* Policy is a map from the state to action. Deterministic policy: $$a=\pi (s)$$. Stochastic policy: $$\pi (a|s)=P\left[ { A }_{ t }=a|{ S }_{ t }=s \right] $$.
+
 * Value funtion:
 
 $$
@@ -67,4 +70,20 @@ $$
 $$
 { R }_{ s }^{ a }=E\left[ { R }_{ t+1 }|{ S }_{ t }=s,{ A }_{ t }=a \right] 
 $$
+
+### 3. Problems within RL
+
+* Learning and Planing
+
+If the enviroment is initially unknown, the problem is reinforcement learning. If the enviroment us known, the problem is planning. 
+
+* Exploration and Exploitation
+
+There is a tradeoff between exploration and exploitation in reinforcement learning. Exploration helps us to find more information about the enviroment(try a new restaurant), while exploition exploits knwon information to maximize reward(go to favourite restaurant).
+
+* Prediction and Control
+
+Given policy, evaluating the future, it's prediction.
+
+Optimising the future, it's control.
 
