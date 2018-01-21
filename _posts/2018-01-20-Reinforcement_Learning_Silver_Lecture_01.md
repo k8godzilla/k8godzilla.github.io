@@ -41,7 +41,7 @@ tags:
 * $${ S }_{ t }^{ a }$$ is the infomation used by reinforcemnt learning algorithms and can be function of history: $${S}_{t}^{a}=f({H}_{t})$$.
 * An information state (a.k.a Markov state) contains all uesful information from the history. The formal definition is:
 
- A state $${S}_{t]$$ is Markov if and only if
+ A state $${S}_{t}$$ is Markov if and only if
 
  $$
  P\left[ { S }_{ t+1 }|{ S }_{ t } \right] =P\left[ { S }_{ t+1 }|{ S }_{ 1 },...,{ S }_{ t } \right] 
@@ -61,7 +61,11 @@ Polocy is a map from the state to action.
 
 Deterministic policy: $$a=\pi (s)$$. 
 
-Stochastic policy: $$\pi (a |s)=P\left[ { A }_{ t }=a |{ S }_{ t }=s \right]$$.
+Stochastic policy: 
+
+$$
+\pi (a |s)=P\left[ { A }_{ t }=a |{ S }_{ t }=s \right]
+$$
 
 
 
