@@ -61,7 +61,7 @@ Polocy is a map from the state to action.
 
 Deterministic policy: $$a=\pi (s)$$. 
 
-Stochastic policy: $$\pi (a|s)=P\left[ { A }_{ t }=a |{ S }_{ t }=s \right]$$.
+Stochastic policy: $$\pi (a |s)=P\left[ { A }_{ t }=a |{ S }_{ t }=s \right]$$.
 
 
 
