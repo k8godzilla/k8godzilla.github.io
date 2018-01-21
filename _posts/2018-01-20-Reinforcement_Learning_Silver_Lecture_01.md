@@ -57,7 +57,11 @@ An RL agent may consist of one or more of these three components: policy, value 
 
 * **Policy**
 
-Polocy is a map from the state to action. Deterministic policy: $$a=\pi (s)$$. Stochastic policy: $$\pi (a|s)=P\left[ { A }_{ t }=a|{ S }_{ t }=s \right] $$.
+Polocy is a map from the state to action. 
+
+Deterministic policy: $$a=\pi (s)$$. 
+
+Stochastic policy: $$\pi (a|s)=P\left[ { A }_{ t }=a|{ S }_{ t }=s \right] $$.
 
 * **Value funtion**
 
