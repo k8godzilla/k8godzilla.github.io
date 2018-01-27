@@ -47,8 +47,17 @@ tags:
 
 **3.2** What is *forward view of $$TD(\lambda)$$*?
 
+**3.3** What is *backward view of $$TD(\lambda)$$*?
 
+**3.4** Prove that backward view of $$TD(\lambda)$$ is equivalent to $$TD(0)$$ when $${\lambda}=0$$.
 
+**3.5** Prove that backward view of $$TD(\lambda)$$ is equivalent to $$MC method$$ when $${\lambda}=1$$.
+
+**3.6** In offline updates, what is the relation between forward view and backward view of $$TD(\lambda)$$?
+
+**3.7** Prove that in offline situation for general $$\lambda$$, the forward and backward view of $$TD(\lambda)$$ is equivalent.
+
+**3.8** Summarize the equivalence of forward and backward view of $$TD(\lambda)$$ in offline and online updates.
 
 
 
