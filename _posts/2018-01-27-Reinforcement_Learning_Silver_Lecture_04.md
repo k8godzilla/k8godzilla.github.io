@@ -51,7 +51,7 @@ tags:
 
 **3.4** Prove that backward view of $$TD(\lambda)$$ is equivalent to $$TD(0)$$ when $${\lambda}=0$$.
 
-**3.5** Prove that backward view of $$TD(\lambda)$$ is equivalent to $$MC method$$ when $${\lambda}=1$$.
+**3.5** Prove that backward view of *$$TD(\lambda)$$* is equivalent to *MC method* when $${\lambda}=1$$.
 
 **3.6** In offline updates, what is the relation between forward view and backward view of $$TD(\lambda)$$?
 
