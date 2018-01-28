@@ -47,5 +47,12 @@ tags:
 
 **2.6** Explain the advantage of $$Sarsa(\lambda)$$ in gridworld example.
 
+### 3. Off-Policy Learning
 
+**3.1** What is *importance sampling*? Compared to *importance sampling for MC*, what's the advantage of *importance sampling for TD*?
 
+**3.2** What is *Q-learning*? What is the *behaviour policy* of Q-learning? What is the *target policy* of Q-learning? 
+
+### 4. Summary
+
+**4.1** Summarize the learning method in 2-D tables. The column is *DP* and *TD*, the row is $${ v }_{ \pi  }(s)$$, $${ q }_{ \pi  }(s,a)$$ and $${ q }_{ * }(s,a)$$. 
