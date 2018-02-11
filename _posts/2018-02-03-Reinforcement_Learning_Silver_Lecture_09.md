@@ -9,7 +9,7 @@ catalog: true
 tags:
     - Reinforcement Learning
 ---
-## Lecture 08
+## Lecture 09
 
 **1. Multi-Armed Bandits**
 

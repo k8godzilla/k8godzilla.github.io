@@ -27,7 +27,7 @@ tags:
 
 ### 2. Temporal-Difference Learning
 
-**2.1** How $$V({S}_{t})$$ is updated in the situation of $$TD(0)$$? What is *TD targer* and *TD error*?
+**2.1** How $$V({S}_{t})$$ is updated in the situation of $$TD(0)$$? What is *TD target* and *TD error*?
 
 **2.2** What is the advantages and disadvantages of *TD method* comapared to *Monte-Carlo method*?
 

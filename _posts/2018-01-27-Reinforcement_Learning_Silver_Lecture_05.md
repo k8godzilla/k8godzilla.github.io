@@ -25,7 +25,7 @@ tags:
 
 **1.1** In Monte-Carlo control, does policy evaluation base on state value or state-action value? Why?
 
-**1.2** What is $$\epsilon-Greedy Exploration$$?
+**1.2** What is $$\epsilon-Greedy$$ Exploration?
 
 **1.3** Prove that $$\epsilon-greedy$$ ensures improvement on q value.
 
